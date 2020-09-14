@@ -4,7 +4,7 @@ package mccormick;
 * Sales List Program
 * @author Maggie McCormick
 * @version 1.0
-* @since September 12, 2020
+* @since September 13, 2020
 *
 */
 

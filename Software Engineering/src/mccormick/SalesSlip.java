@@ -27,7 +27,7 @@ public class SalesSlip {
 	}
 	
 	/** 
-     * Add name of an item to the list of items
+     * Add name of an item to the list of items in program 
      * @param nameIn the name of the item
      */
 	public void addName(String nameIn) {
