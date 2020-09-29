@@ -194,7 +194,7 @@ public class HomeworkFive {
 
 			output_text.setLineWrap(true); // wraps onto same line
 			output_text.setWrapStyleWord(true); // wraps onto same line
-			output_text.setText("values: " + list.displayFormatted() + "\nmean: " + avg + "\n" + "standard deviation: "
+			output_text.setText("Values: " + list.displayFormatted() + "\nMean: " + avg + "\n" + "Standard deviation: "
 					+ stdDev);
 		}
 
