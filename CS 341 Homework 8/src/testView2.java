@@ -90,7 +90,7 @@ public class testView2 {
 		btnBuild = new JComboBox(options);
 		btnBuild.setBounds(79, 108, 114, 27);
 		frame.getContentPane().add(btnBuild);
-		btnBuild.setSelectedItem(null); // possibly take out?
+		btnBuild.setSelectedItem(null); 
 		panel.add(btnBuild);
 		
 		btnNewButton = new JButton("SELECT");

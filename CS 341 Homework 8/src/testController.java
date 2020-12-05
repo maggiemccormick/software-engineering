@@ -3,23 +3,16 @@ import java.awt.event.ActionListener;
 
 public class testController {
 	
-	public static testView2 view; // view
+	public static testView2 view;
 	public static Inventory model;
 	public static testView hola;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		view = new testView2();
-		//hola = new hi();
 		model = new Inventory();
-		//addListenerEvent();
-
 	}
 	
 	public static void addListenerEvent() {
-		
-		// Control the update and response of the model and view
 		view.btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				updateModel();
@@ -30,8 +23,6 @@ public class testController {
 	public static void updateModel() {
 		
 		String selectedComboBoxSelection;
-		
-		// Passing to Video Constructor
 		
 		String sku = view.sku_text.getText();
 		
@@ -45,7 +36,6 @@ public class testController {
 		
 		Video vid = new Video(sku, title, p, q);
 		
-		// Combo Box Selection choice:
 		if (view.btnBuild.getSelectedItem() == null) {
 			view.textArea.setText("NO OPTION SELECTED");
 			return;

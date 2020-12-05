@@ -3,7 +3,7 @@ import java.util.HashMap;
 
 public class Inventory {
 	
-	// Data Members (Could do it with HashMap or ArrayList)
+	// Data Members 
 	public ArrayList<Video> v;
 	public HashMap<String, Video> hashVideoMap;
 	
@@ -15,9 +15,8 @@ public class Inventory {
 	}
 	
 	public void addVideo (Video vSelection) {
-		//adds via array list and hashmap
 		v.add(vSelection);
-		hashVideoMap.put(vSelection.getSKU(), vSelection); // will only add if doesn't exist
+		hashVideoMap.put(vSelection.getSKU(), vSelection); 
 	}
 
 	public void removeVideo (String videoSKU) { // removes by SKU

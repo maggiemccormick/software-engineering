@@ -124,7 +124,7 @@ public class HomeworkEight {
 	}
 	
 	/**
-	 * This is to create our output once the button is clicked
+	 * Creates our output once the button is clicked
 	 */
 	
 	public void createEvents() {
